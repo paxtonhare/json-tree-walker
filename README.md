@@ -65,7 +65,7 @@ import module namespace walker = "http://marklogic.com/ns/json-tree-walker"
 
 let $doc := fn:doc('/path/to/some.json')
 return
-  walker:walk-json($doc function($key, $value, $output) {
+  walker:walk-json($doc, function($key, $value, $output) {
     if ($value instance of json:object) then
       (: upcase all object keys :)
       map:put($output, "key", fn:upper-case($key))
