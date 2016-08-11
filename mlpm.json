@@ -2,5 +2,5 @@
   "name": "json-tree-walker",
   "version": "1.0.0",
   "description": "a MarkLogic XQuery library for walking JSON Trees using the Visitor Pattern",
-  "repository": "https://github.com/paxtonhare/json-tree-walker.git",
+  "repository": "https://github.com/paxtonhare/json-tree-walker.git"
 }
